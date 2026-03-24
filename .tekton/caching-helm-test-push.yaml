@@ -22,7 +22,7 @@ spec:
     - name: revision
       value: "{{revision}}"
     - name: output-image
-      value: quay.io/redhat-user-workloads-stage/dev-release-team-tenant/caching-helm-test:{{revision}}
+      value: quay.io/redhat-user-workloads-stage/dev-release-team-tenant/caching-helm-test-rhel9:{{revision}}
     - name: dockerfile
       value: helm.Containerfile
     - name: path-context
